@@ -56,13 +56,11 @@ padding: 40px;
 
 
 .nav-list-contant{
-
 }
 
 
 
 .nav-list{
-
 }
 .nav-list li,a{
 text-decoration: none;
@@ -71,7 +69,6 @@ padding: 10px;
 font-size: 1rem;
 font-weight: 500px;
 color: #424242;
-
 }
 
 .banner-heading{
@@ -90,11 +87,45 @@ width: 100%;
 border-radius: 8px;
 
 }
+.quick-list-contant{
+    margin-top:30px;
+    align-items: center;
+}
+.quick-list-contant-child{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick-list-contant-text{
+    margin:200px 60px 200px 73px;
+}
+.sp1{
+font-weight: 100;
+color: #727272;
+font-weight: 500;
+}
+.sp2{
+font-weight: bold;
+}
 
+.sp3{
+color: #FF900E;
+font-weight: bold;
+}
+
+.alingn-item{
+    align-items: center;
+}
 
 @media screen and ( max-width: 576px) {
-    .navigation, .nav-list{
+    .navigation, .nav-list, .quick-list-contant-child{
+        flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list-contant{
         flex-direction: column;
     }
-    
+    .quick-list-contant-text {
+    margin-top: 10px;
+}
 }
