@@ -1,0 +1,100 @@
+.display-flex{
+display: flex;
+
+}
+
+
+.button-praimary{
+font-size: 1.2rem;
+font-weight: 400px;
+color: white;
+padding: 20px;
+height: 64px;
+width: 180px;
+background: #FF900E;
+border-radius: 8px;
+}
+
+.margin-middle{
+  max-width: 1440px;
+    margin: 0 auto;
+}
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+header{
+background-color: rgba(124, 81, 33, 0.1);
+
+
+}
+
+.navigation{
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+.nav-contant{
+
+}
+
+
+
+.nav-contant-haeding{
+font-size: 2.1rem;
+font-weight: bold;
+padding: 40px;
+}
+
+
+
+.nav-list-contant{
+
+}
+
+
+
+.nav-list{
+
+}
+.nav-list li,a{
+text-decoration: none;
+list-style: none;
+padding: 10px;
+font-size: 1rem;
+font-weight: 500px;
+color: #424242;
+
+}
+
+.banner-heading{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-contant{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.banner-img img{
+width: 100%;
+border-radius: 8px;
+
+}
+
+
+@media screen and ( max-width: 576px) {
+    .navigation, .nav-list{
+        flex-direction: column;
+    }
+    
+}
