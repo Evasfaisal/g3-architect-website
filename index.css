@@ -36,12 +36,7 @@ background-color: rgba(124, 81, 33, 0.1);
 .navigation{
 justify-content: space-between;
 align-items: center;
-
-}
-
-
-
-.nav-contant{
+width: 100%;
 
 }
 
@@ -55,12 +50,8 @@ padding: 40px;
 
 
 
-.nav-list-contant{
-}
-
-
-
 .nav-list{
+    margin: 0%;
 }
 .nav-list li,a{
 text-decoration: none;
